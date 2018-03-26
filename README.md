@@ -1,15 +1,15 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![Docker Stars](https://img.shields.io/docker/stars/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![](https://images.microbadger.com/badges/version/wurstmeister/kafka.svg)](https://microbadger.com/images/wurstmeister/kafka "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/wurstmeister/kafka.svg)](https://microbadger.com/images/wurstmeister/kafka "Get your own image badge on microbadger.com")
-[![Build Status](https://travis-ci.org/wurstmeister/kafka-docker.svg?branch=master)](https://travis-ci.org/wurstmeister/kafka-docker)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gutek9/kafka.svg)](https://hub.docker.com/r/gutek9/kafka/)
+[![Docker Stars](https://img.shields.io/docker/stars/gutek9/kafka.svg)](https://hub.docker.com/r/gutek9/kafka/)
+[![](https://images.microbadger.com/badges/version/gutek9/kafka.svg)](https://microbadger.com/images/gutek9/kafka "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/gutek9/kafka.svg)](https://microbadger.com/images/gutek9/kafka "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/gutek9/kafka-docker.svg?branch=master)](https://travis-ci.org/gutek9/kafka-docker)
 
 kafka-docker
 ============
 
 Dockerfile for [Apache Kafka](http://kafka.apache.org/)
 
-The image is available directly from [Docker Hub](https://hub.docker.com/r/wurstmeister/kafka/)
+The image is available directly from [Docker Hub](https://hub.docker.com/r/gutek9/kafka/)
 
 ## Pre-Requisites
 
@@ -34,7 +34,7 @@ Destroy a cluster:
 
 ## Note
 
-The default ```docker-compose.yml``` should be seen as a starting point. By default each broker will get a new port number and broker id on restart. Depending on your use case this might not be desirable. If you need to use specific ports and broker ids, modify the docker-compose configuration accordingly, e.g. [docker-compose-single-broker.yml](https://github.com/wurstmeister/kafka-docker/blob/master/docker-compose-single-broker.yml):
+The default ```docker-compose.yml``` should be seen as a starting point. By default each broker will get a new port number and broker id on restart. Depending on your use case this might not be desirable. If you need to use specific ports and broker ids, modify the docker-compose configuration accordingly, e.g. [docker-compose-single-broker.yml](https://github.com/gutek9/kafka-docker/blob/master/docker-compose-single-broker.yml):
 
 - ```docker-compose -f docker-compose-single-broker.yml up```
 
@@ -171,4 +171,4 @@ See the included sample compose file ```docker-compose-swarm.yml```
 
 ## Tutorial
 
-[http://wurstmeister.github.io/kafka-docker/](http://wurstmeister.github.io/kafka-docker/)
+[http://gutek9.github.io/kafka-docker/](http://gutek9.github.io/kafka-docker/)
